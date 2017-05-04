@@ -1,0 +1,18 @@
+from time import sleep
+print("Hello! I am Casper, what is your name?")
+name = input()
+print(name + " is a great name! One of my favorites.")
+print("How are you today " + name +"?")
+feeling = input()
+print("I am glad you are feeling " + feeling + " I am feeling wonderful myself!")
+sleep (1)
+print("Please don't mind my asking, but how old are you?")
+age = input()
+print("Isn't it fun to be " + age + "! There are so many things you can do!")
+sleep (1)
+age = int(age)
+year = age + 1
+year = str(year)
+print("AND")
+sleep (2)
+print("Next year when you are " + year + " there will be even more for you to do!")
