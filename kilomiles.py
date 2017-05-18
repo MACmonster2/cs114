@@ -2,10 +2,12 @@
 
 #1. Setup
 kpm = 1.60934
+mpk = 0.621371
 #2. Input
 print('do you need miles or kilometers?')
-d= (input())
-if d in [miles, Miles]:
+measure= (input())
+d= measure.lower()
+if d == ('miles'):
     print('How many miles to convert?')
     miles= float(input())
     #3. Transform
