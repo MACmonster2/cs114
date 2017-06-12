@@ -1,7 +1,6 @@
 """ GUI GIT Program """
 
 """   ***** IMPORTS *****   """
-
 import os
 from tkinter import *
 import tkinter
@@ -9,7 +8,6 @@ from tkinter import simpledialog, messagebox
 from subprocess import call, Popen, PIPE
 
 """  ***** FUNCTIONS *****  """
-
 def exit_prompt():
     exit_prompt = messagebox.askquestion("Quit","Do you want to quit?",icon="warning",master=root)
     if exit_prompt == 'yes':
@@ -62,8 +60,6 @@ def git_create():
     commit = Button(create_window, text="stuff", command=git_add, pady=10).pack(fill=X)
 
 """   ***** GUI *****   """
-
-
 #main window
 root = Tk()
 menu = Menu(root)
