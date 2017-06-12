@@ -265,3 +265,5 @@ def main():
 # the program.
 if __name__ == '__main__':
   main()
+#To use, enter...
+#python3 final.py --target-image TARGET IMAGE --input-folder INPUT FOLDER --grid-size 128 128
